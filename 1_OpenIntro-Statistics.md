@@ -68,7 +68,7 @@ Generally, patients should not know whether they are in treatment or control. If
 - The *standard deviation* is the square root of the variance. Its value is given in the same unit as the mean. Both variance and standard deviation are measures of variability in the data
 - Mean, variance and standard deviation are highly affected by outliers. The *median* and *interquartile range* (*ICR = Q3 - Q1*) are much more robust against outliers
 - *Outliers* are observations that seem extreme compared to the rest of the data
-- To work with some variables more easy, it can be helpful to transform the values, e.g. putting them on a logarithmic scale might make it reasonable to fit a linear model
+- To work with some variables more easily, it can be helpful to transform the values, e.g. putting them on a logarithmic scale might make it reasonable to fit a linear model
 - Depending on the data, more specialized visualizations can be great, e.g. using heatmaps for geographical data
 
 ### 1.7 Considering categorical data
