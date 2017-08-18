@@ -70,3 +70,9 @@ Generally, patients should not know whether they are in treatment or control. If
 - *Outliers* are observations that seem extreme compared to the rest of the data
 - To work with some variables more easy, it can be helpful to transform the values, e.g. putting them on a logarithmic scale might make it reasonable to fit a linear model
 - Depending on the data, more specialized visualizations can be great, e.g. using heatmaps for geographical data
+
+### 1.7 Considering categorical data
+
+- *Contingency tables* provide a basic summary of the relationship between two variables
+- There are various graphical visualizations for contigency tables, e.g. *segmented bar plots* or *mosaic plots*
+- *Pie charts* should be avoided because they make it hard to compare frequencies
