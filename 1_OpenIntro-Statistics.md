@@ -56,3 +56,17 @@ Experiments are based on at least four principles:
 4. *Blocking*: If it seems like a variable other than the treatment influences the result, a technique called blocking can be applied. Here, the patients are assigned to treatment and control so that the distribution of that variable is nearly the same in both groups
 
 Generally, patients should not know whether they are in treatment or control. If this is the case, the study is called *blind*. Additionally, the people testing the patients should also not know. This is called *double-blind*.
+
+### 1.6 Examining numerical data
+
+- Scatter plots are helpful for visualizing the relationship between two variables
+- Histograms provide an overview over the density of different values
+- When the data slowly trails off in one direction, it is said to have a *long tail* in that direction
+- When the data has a long tail to the left (right), it is *left skewed* (*right skewed*). When it is both left and right skewed, it is said to be *symmetric*
+- The *mode* is a prominent peak in the data. Sometimes, more formally, it is considered to be the most common value. Depending on the number of modes, the distribution is called *unimodal* (1), *bimodal* (2) or *multimodal* (3 or more)
+- *Variance* is the average squared distance to the mean. Squaring penalizes large deviations from the mean
+- The *standard deviation* is the square root of the variance. Its value is given in the same unit as the mean. Both variance and standard deviation are measures of variability in the data
+- Mean, variance and standard deviation are highly affected by outliers. The *median* and *interquartile range* (*ICR = Q3 - Q1*) are much more robust against outliers
+- *Outliers* are observations that seem extreme compared to the rest of the data
+- To work with some variables more easy, it can be helpful to transform the values, e.g. putting them on a logarithmic scale might make it reasonable to fit a linear model
+- Depending on the data, more specialized visualizations can be great, e.g. using heatmaps for geographical data
