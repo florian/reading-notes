@@ -30,7 +30,7 @@ There can be relations between pairs of variables:
 
 ### 1.3 Overview of data collection principles
 
-- Each question we want to answer is based on a target *population*
+- Every question we want to answer is based on a target *population*
 - Often, we can't collect data about the entire population, so we work on a *sample* of the population
 - Anecdotes generally don't have much value because they are usually based on few data points and humans tend to remember outliers much more
 - Sampling can be difficult because it's easy to select a subpopulation that's not representative
@@ -76,3 +76,27 @@ Generally, patients should not know whether they are in treatment or control. If
 - *Contingency tables* provide a basic summary of the relationship between two variables
 - There are various graphical visualizations for contigency tables, e.g. *segmented bar plots* or *mosaic plots*
 - *Pie charts* should be avoided because they make it hard to compare frequencies
+
+## 2. Probability
+
+Note: Prior to reading this book I knew much more about probability theory than about statistics, so the summary of this chapter is very brief.
+
+### 2.1 Defining probability
+
+- Law of large numbers: As we sample more and more elements, the proportion each element was observed converges to its probability
+- A *distribution* is a function that assigns probabilities to events. In the finite case, it might just be a lookup table
+- Two events are *independent* if knowing the outcome of one event does not change the probability of the second event
+
+### 2.2 Conditional probability
+
+- A *marginal* probability is the probability of a single event occuring (also called *unconditional* probability): *P(A)*
+- The probability of one or more events occuring at the same time is called *joint* probability and can be denoted by *P(A, B*) as well as *P(A and B)*
+- A *conditional* probability is the probability for event *A* given that we already know a second event *B* occured: *P(A|B)*
+- *Tree diagrams* show marginal probabilities in the primary branches, conditional probabilities in all other branches, and joint probabilities in the leafs
+- *Bayesian statistics* is a branch of statistics that's based on using *Bayes' rules* to update our beliefs when new information is available
+
+### 2.3 Sampling from a small population
+
+- Sampling with replacement implies our observations are independent of each other, which is a very nice property to have
+- For sampling without replacement this is not the case. However, when we sample from a lot of elements the difference can be negligible
+- Sampling with replacement means that the individual results are less likely but that they can occur more than once
