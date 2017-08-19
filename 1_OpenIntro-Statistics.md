@@ -100,3 +100,8 @@ Note: Prior to reading this book I knew much more about probability theory than 
 - Sampling with replacement implies our observations are independent of each other, which is a very nice property to have
 - For sampling without replacement this is not the case. However, when we sample from a lot of elements the difference can be negligible
 - Sampling with replacement means that the individual results are less likely but that they can occur more than once
+
+### 2.4 Random variables
+
+- The expected value of a linear combination of random variables is equal to the linear combination of the individual expected values using the same coefficients
+- For variance this also holds if the random variables are independent of each other and the coefficients in the linear combination for the combined variance are squared
