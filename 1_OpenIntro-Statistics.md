@@ -171,6 +171,7 @@ Note: Prior to reading this book I knew much more about probability theory than 
 - Depending on the exact question we want to answer, a *one-sided* or *two-sided* test should be used
 - H0 is rejected if the p-value is smaller than the significance level. It is important to choose the significance level beforehand
 - Finding a good significance level is a trade-off between how much we are willing to make type 1 and type 2 errors. A smaller significance level, means we make fewer type 1 errors but more type 2 errors. Depending on the problem, one of these errors might be much worse than the other kind
+- *null distribution*: sampling distribution given that H0 is true
 
 ### 4.4 Examining the Central Limit Theorem
 
