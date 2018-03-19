@@ -12,8 +12,8 @@ When performing experiments, patients are partitioned into two groups:
 
 Variables can have different types. Generally, they can be classified into two groups which have their own subgroups:
 - *Numerical* (or *quantitative*): The values of the feature are numeric and it makes sense to perform arithmetic operations on them (e.g. addition, subtraction, calculating the mean)
-  - *Discrete*: There are no jumps between the values (e.g. an integer that describes the age of a person)
-  - *Continuous*: There are jumps between the values (e.g. a number describing the price someone paid for a house)
+  - *Discrete*: There are jumps between the values (e.g. an integer that describes the age of a person)
+  - *Continuous*: There are no jumps between the values (e.g. a number describing the price someone paid for a house)
 - *Categorical* (or *qualitative*): Variables that have a finite set of possible values
   - *Ordinal*: There is sensible way to order the values (e.g. there are three different price classes)
   - *Nominal*: There is no sensible way to compare or order the values (e.g. colors). Zip codes are another example of a nominal variable. Even though they are numbers (in some countries at least), it does not make sense to perform arithmetic operations on them and they have no sensible ordering
