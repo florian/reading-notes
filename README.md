@@ -1,6 +1,6 @@
 # Reading Notes
 
-### OpenIntro Statistics ([book](https://www.openintro.org/stat/) | [notes](https://github.com/florian/reading-notes/blob/master/1_OpenIntro-Statistics.md))
+### OpenIntro Statistics ([book](https://www.openintro.org/stat/) | [notes](https://github.com/florian/reading-notes/blob/master/books/1_OpenIntro-Statistics.md))
 
 OpenIntro Statistics is a freely available textbook that's meant to introduce readers to statistics.
 The book does not make many assumptions about the knowledge of readers and is generally on a fairly basic level.
