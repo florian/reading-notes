@@ -1,12 +1,14 @@
-# The Unreasonable Effectiveness of Data [pdf]
+# The Unreasonable Effectiveness of Data [[pdf](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)]
 
-In this paper, the authors argue that some problems, such as NLP,  can possibly not be solved by finding elegant theories like in physics. Instead, we should focus on extracting information from large amounts of text. Even simple models based on a lot of data can perform extremely well, so we should be aware of how powerful data can be.
+*Halevy, Alon, Peter Norvig, and Fernando Pereira. "The unreasonable effectiveness of data." IEEE Intelligent Systems 24.2 (2009): 8-12.*
+
+In this paper, the authors argue that some problems, such as NLP,  can possibly not be solved by finding elegant theories as it was done in physics. Instead, we should focus on extracting information from large amounts of text. Even simple models based on a lot of data can perform extremely well, so we should be aware of how powerful data can be.
 
 ## Introduction
 * Maybe there are no elegant theories that model languages as nicely as we can describe physics
 * Instead, we should embrace the complexity of language and try to learn from data
-* The Brown corpus contains a million labeled English words and used to be a particularly great dataset for NLP
-* In 2006, Google released a trillion-word corpus. This data is much less clean: It's directly taken from unfiltered websites, there are spelling mistakes, and so on
+* The [Brown corpus](https://www1.essex.ac.uk/linguistics/external/clmt/w3c/corpus_ling/content/corpora/list/private/brown/brown.html) contains a million labeled English words and used to be a particularly great dataset for NLP
+* In 2006, Google released a [trillion-word corpus](https://books.google.com/ngrams). This data is much less clean: It is directly taken from unfiltered websites, there are spelling mistakes, and so on
 * However, this dataset is much larger and thus contains much more information
 * The only question is how to extract the important information and build a model from it
 
@@ -27,7 +29,7 @@ In this paper, the authors argue that some problems, such as NLP,  can possibly 
 
 ## Examples
 * Consider the problem of learning synonyms. Whether two words are a synonym or not could depend on the context, e.g. for words referring to companies
-* Dictionaries are not that useful for this problem. A large corpus of text is
+* Dictionaries are not that useful for this problem. A large corpus of text from which we learn automatically is
 
 ## Conclusion
 * > "Follow the data"
