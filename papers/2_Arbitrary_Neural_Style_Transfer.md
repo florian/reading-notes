@@ -64,8 +64,15 @@ This paper proposes a more general solution in which we train a network to apply
 - The style prediction network is initialized using a pretrained Inception-v3 architecture
 - Both networks are then trained end-to-end
 - After the training, it is possible to use any content and style images as input
-- There has been parallel work for producing an embedding without retraining. However, that paper is just based on heuristics, while the approach above directly learns a representation
+- There has been [parallel work](https://arxiv.org/abs/1703.06868) for producing an embedding without retraining. However, that paper is just based on heuristics, while the approach above directly learns a representation
 
 ## 3. Results
 
 ## 4. Conclusions
+
+- This approach to style transfer generalizes well to new styles. It works especially well if the new style is close to the styles that were trained on
+- The low-dimensional embedding captures properties of the paintings
+- Future work:
+  - Enforce consistency between frames in a video
+  - Learn an embedding based on semantic information about the style
+- More generally, style transfer could be useful in situations where data is limited and previous knowledge should be transferred
