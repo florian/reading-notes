@@ -49,7 +49,7 @@ This paper proposes a more general solution in which we train a network to apply
 ### A single neural network for all known styles
 
 - Styles are embedded in a lower-dimensional space using a standard autoencoder architecture
-- Most parameters are the same for all inputs (the styles). Only the normalization parameters for *conditional [instance normalization](https://arxiv.org/abs/1607.08022)* are optimized for each style individually. These are only 0.2% of all the parameters
+- Most parameters are the same for all inputs (the styles). Only the normalization parameters for *conditional [instance normalization](https://arxiv.org/abs/1607.08022)* are optimized for each style individually. These are only 0.2% of all the parameters (2758 weights)
 - The set of all these normalization parameters is the embedded representation we use for a style
 - The style transfer network now takes as input the content image and the embedding of the style
 - This approach is nicer because we reuse most of the weights directly related to the style
@@ -67,6 +67,14 @@ This paper proposes a more general solution in which we train a network to apply
 - There has been [parallel work](https://arxiv.org/abs/1703.06868) for producing an embedding without retraining. However, that paper is just based on heuristics, while the approach above directly learns a representation
 
 ## 3. Results
+
+- Dataset:
+  - Content images from ImageNet
+  - Styles from Kaggle's [Paint By Numbers](https://www.kaggle.com/c/painter-by-numbers) and [Describable Textures Dataset](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
+  - Augmented by applying image transformations
+- Unlike in previous work, the same content and image loss weighting can be used for all styles
+- Training on a lot of styles was crucial for generalization
+- Similarly styled images are close to each other in the latent space. Proximity in this space also reflects semantic similarity
 
 ## 4. Conclusions
 
