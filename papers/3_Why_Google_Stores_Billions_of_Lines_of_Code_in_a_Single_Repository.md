@@ -1,5 +1,11 @@
 # Why Google Stores Billions of Lines of Code in a Single Repository [[pdf]](https://ai.google/research/pubs/pub45424) [[video]](https://www.youtube.com/watch?v=W71BTkUbdqE)
 
+*Potvin, Rachel, and Josh Levenberg. "Why Google stores billions of lines of code in a single repository." Communications of the ACM 59.7 (2016): 78-87. APA*
+
+Google uses a monorepo for most of its projects, which is a single repository that holds all of the code directly or indirectly used by these Google projects.
+Making such a system work at Google's scale is difficult and requires a lot of sophisticated tooling.
+This paper gives an overview over the version control system Google uses, explains some of Google's tools, and discusses the advantages and disadvantages of the monorepo approach.
+
 ## Google-scale
 
 - The vast majority of Google's code is stored in a single repository
@@ -25,6 +31,7 @@
 
 #### Piper overview
 
+- Reimplementation of the Perforce version control system
 - Piper was first implemented on top of [Bigtable](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf) and then on top of [Spanner](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf)
 - Distributed over 10 data centers
 - The [Paxos](https://en.wikipedia.org/wiki/Paxos_(computer_science)) algorithm is used to guarantee consistency
@@ -142,5 +149,12 @@
 
 - Google decided on the monorepo approach in 1999
 - There were several occasions where Google thought about switching to a different system but always decided against it
-- This approach is only well-suited for companies where not much of the code is hidden
+- This approach is only well-suited for companies where everyone is allowed to see most of the code
 - A lot of tooling was required to make this approach scale with Google's growth
+
+---
+
+## Other interesting reads (not from this paper)
+
+- [Advantages of monorepos](https://danluu.com/monorepo/)
+- [Scaling your monorepo for an efficient CI](https://www.alexrs.me/2018/shopify-monorepo)
