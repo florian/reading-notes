@@ -19,6 +19,7 @@ Reinforcement Learning is a subarea of Machine Learning where there's no supervi
 
 1. [The Unreasonable Effectiveness of Data](papers/1_The_Unreasonable_Effectiveness_of_Data.md)
 2. [Exploring the structure of a real-time, arbitrary neural artistic stylization network](papers/2_Arbitrary_Neural_Style_Transfer.md) (neural style transfer)
+3. [Why Google Stores Billions of Lines of Code in a Single Repository](papers/3_Why_Google_Stores_Billions_of_Lines_of_Code_in_a_Single_Repository.md) (Google's monorepo)
 
 ---
 
