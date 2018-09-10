@@ -1,4 +1,4 @@
-# The Unreasonable Effectiveness of Data [[pdf](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)]
+# The Unreasonable Effectiveness of Data [[pdf]](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf)
 
 *Halevy, Alon, Peter Norvig, and Fernando Pereira. "The unreasonable effectiveness of data." IEEE Intelligent Systems 24.2 (2009): 8-12.*
 
