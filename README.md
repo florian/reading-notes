@@ -26,3 +26,10 @@ Reinforcement Learning is a subarea of Machine Learning where there's no supervi
 ## Conventions in this repository
 
 - All citations are in the MLA citation format 
+
+### Papers
+
+- After the title, the paper is linked as a [pdf]
+- Next, the paper is cited in the MLA format in italics
+- This is followed by a short abstract of around three sentences
+- The remaining headings roughly follow the structure of the paper
