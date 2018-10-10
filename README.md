@@ -21,6 +21,9 @@ Reinforcement Learning is a subarea of Machine Learning where there's no supervi
 2. [Exploring the structure of a real-time, arbitrary neural artistic stylization network](papers/2_Arbitrary_Neural_Style_Transfer.md) (neural style transfer)
 3. [Why Google Stores Billions of Lines of Code in a Single Repository](papers/3_Why_Google_Stores_Billions_of_Lines_of_Code_in_a_Single_Repository.md) (Google's monorepo)
 4. [Are you living in a computer simulation?](papers/4_Are_you_living_in_a_computer_simulation.md) (simulation argument)
+5. [Software Engineering at Google](papers/5_Software_Engineering_at_Google.md)
+6. [TensorFlow: A system for large-scale machine learning](papers/6_TensorFlow_A_system_for_large-scale_machine_learning.md) (2016 whitepaper)
+7. [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](papers/7_TensorFlow_Large-Scale_Machine_Learning_on_Heterogeneous_Distributed_Systems.md) (2015 whitepaper)
 
 ---
 
