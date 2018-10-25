@@ -25,12 +25,13 @@ Reinforcement Learning is a subarea of Machine Learning where there's no supervi
 6. [TensorFlow: A system for large-scale machine learning](papers/6_TensorFlow_A_system_for_large-scale_machine_learning.md) (2016 whitepaper)
 7. [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](papers/7_TensorFlow_Large-Scale_Machine_Learning_on_Heterogeneous_Distributed_Systems.md) (2015 whitepaper)
 8. [Generative Adversarial Nets](papers/8_Generative_Adversarial_Nets.pdf)
+9. [MapReduce: Simplified Data Processing on Large Clusters](papers/9_MapReduce_Simplified_Data_Processing_on_Large_Clusters.md)
 
 ---
 
 ## Conventions in this repository
 
-- All citations are in the MLA citation format 
+- All citations are in the MLA citation format
 
 ### Papers
 
