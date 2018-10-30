@@ -1,4 +1,4 @@
-# [OpenIntro Statistics](https://www.openintro.org/stat)
+# OpenIntro Statistics [[website]](https://www.openintro.org/stat)
 
 ## 1. Introduction to data
 
