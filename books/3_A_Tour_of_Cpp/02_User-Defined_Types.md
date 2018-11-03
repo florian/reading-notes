@@ -5,7 +5,7 @@
 * *User-defined types* are classes and enums
 * *Built-in types* was everything previously introduced
 
-## 2.2 Structures
+### 2.2 Structures
 
 * A *struct* defines a set of keys and their types
 * `struct Vector { int sz; }`
@@ -16,7 +16,7 @@
 * `.` accesses `struct` members (keys) by name
 * `a->b` is short for `*a.b` 
 
-## 2.3 Classes
+### 2.3 Classes
 
 * If data is specified separately from operations, it can be used in various ways
 * However, it is a good idea to keep the representation hidden from users so that it is easier to change it later
@@ -29,13 +29,13 @@
 * `struct`s can also have constructors and other member functions
 * General design pattern: If you need a varying amount of space, point to somewhere else where you are allocating that space
 
-## 2.4 Unions
+### 2.4 Unions
 
 * `union` is similar to a struct but only ever stores one of its members
 * The programmer needs to keep track which one is currently stored
 * Space efficient, e.g. if only one of two variables is used at the same time
 
-## 2.5 Enumerations
+### 2.5 Enumerations
 
 * `enum`s define constants and group them under one name
 * E.g. `enum class Color { red, blue, green}`
