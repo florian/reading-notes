@@ -35,7 +35,7 @@
 * The programmer needs to keep track which one is currently stored
 * Space efficient, e.g. if only one of two variables is used at the same time
 
-### 2.5 Enumerations
+## 2.5 Enumerations
 
 * `enum`s define constants and group them under one name
 * E.g. `enum class Color { red, blue, green}`
