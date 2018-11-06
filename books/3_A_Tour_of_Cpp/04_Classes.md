@@ -33,6 +33,12 @@
 
 ### 4.5 Class Hierarchies
 
+- Abstract classes should have virtual destructors
+- `override` to let the compiler check that we are actually overriding something (like `@Override` in Java)
+- > An object of a derived class can be used whenever an object of the base class is required
+- `dynamic_cast<type>(expr)` to cast up, down or sideways in a class hierarchy. It can also be used to check the type, by inspecting the return value
+- It is dangerous to return pointers to objects allocated on the heap. Maybe someone forgets to clean up. Instead, we can use `unique_ptr` to automatically free the memory when the object goes out of scope 
+
 ### 4.6 Copy and Move
 
 - The default mechanism for copying objects is to copy all members
