@@ -27,6 +27,7 @@ Reinforcement Learning is a subarea of Machine Learning where there's no supervi
 8. [Generative Adversarial Nets](papers/008_Generative_Adversarial_Nets.pdf)
 9. [MapReduce: Simplified Data Processing on Large Clusters](papers/009_MapReduce_Simplified_Data_Processing_on_Large_Clusters.md)
 10. [FlumeJava: Easy, Efficient Data-Parallel Pipelines](papers/010_FlumeJava_Easy_Efficient_Data-Parallel_Pipelines.md) (Google's MapReduce successor)
+11. [Neural Machine Translation by Jointly Learning to Align and Translate](papers/011_Neural_Machine_Translation_by_Jointly_Learning_to_Align_and_Translate.md) (attention)
 
 ---
 
