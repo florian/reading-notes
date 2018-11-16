@@ -15,7 +15,14 @@ It's a good first introduction to significance tests and statistical modelling.
 
 Reinforcement Learning is a subarea of Machine Learning where there's no supervisor that tells us the optimal answer / behaviour. Instead, the feedback is delayed and we only get to know a numerical rating of our actions. *Reinforcement Learning: An Introduction* is the canonical book on Reinforcement Learning and gives a good overview over the field. The notes consist of Jupyter notebooks that explain and show implementations for most algorithms from the first two parts of the book.
 
-### A Tour of C++ ([book](http://www.stroustrup.com/Tour.html)
+### A Tour of C++ ([book](http://www.stroustrup.com/Tour.html) | [notes](books/3_A_Tour_of_Cpp))
+
+Bjarne Stroustrup, the creator of C++, wrote a ~1300-page [book](http://www.stroustrup.com/4th.html) on C++.
+The book supposedly covers most of what there is to know about C++ and starts with an overview of the fundamentals.
+*A Tour of C++* is a much shorter book based on this overview.
+It is meant to be read by people that are already very familiar with programming in general and might already have used some C++.
+The book is great for quickly getting up to speed with C++.
+There are updated editions for the newest C++ versions and the book contains some interesting insights from Stroustrup.
 
 ## Papers
 
