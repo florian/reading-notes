@@ -15,6 +15,8 @@ It's a good first introduction to significance tests and statistical modelling.
 
 Reinforcement Learning is a subarea of Machine Learning where there's no supervisor that tells us the optimal answer / behaviour. Instead, the feedback is delayed and we only get to know a numerical rating of our actions. *Reinforcement Learning: An Introduction* is the canonical book on Reinforcement Learning and gives a good overview over the field. The notes consist of Jupyter notebooks that explain and show implementations for most algorithms from the first two parts of the book.
 
+### A Tour of C++ ([book](http://www.stroustrup.com/Tour.html)
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
