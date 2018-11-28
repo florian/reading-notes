@@ -38,6 +38,7 @@ There are updated editions for the newest C++ versions and the book contains som
 10. [FlumeJava: Easy, Efficient Data-Parallel Pipelines](papers/010_FlumeJava_Easy_Efficient_Data-Parallel_Pipelines.md) (Google's MapReduce successor)
 11. [Neural Machine Translation by Jointly Learning to Align and Translate](papers/011_Neural_Machine_Translation_by_Jointly_Learning_to_Align_and_Translate.md) (attention)
 12. [Reflections on Trusting Trust](papers/012_Reflections_on_Trusting_Trust.md) (Thompson’s Turing Award lecture)
+13. [A Decomposable Attention Model for Natural Language Inference](papers/013_A_Decomposable_Attention_Model_for_Natural_Language_Inference.md)
 
 ---
 
