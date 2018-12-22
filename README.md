@@ -41,6 +41,7 @@ There are updated editions for the newest C++ versions and the book contains som
 13. [A Decomposable Attention Model for Natural Language Inference](papers/013_A_Decomposable_Attention_Model_for_Natural_Language_Inference.md)
 14. [Attention Is All You Need](papers/014_Attention_Is_All_You_Need.md) (Transformer architecture)
 15. [An Improved Data Stream Summary: The Count-Min Sketch and its Applications](papers/015_An_Improved_Data_Stream_Summary_The_Count-Min_Sketch_and_its_Applications.md)
+16. [What is Data Sketching, and Why Should I Care?](papers/016_What_is_Data_Sketching_and_Why_Should_I_Care.md)
 
 ---
 
