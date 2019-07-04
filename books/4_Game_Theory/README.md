@@ -35,3 +35,16 @@
 - To find such a mixed strategy we need to solve an equation system with some constraints. The equation system is based on the fact that the payoff should stay the same regardless of what the opponent does
 - In experimental studies few people actually use equilibrium strategies against experienced opponents. However, when the opponent plays randomly, they do choose the strategy with the highest average return
 - Sometimes the assumption that we want to maximize the average return is flawed since it assumes we are playing for a long time. If we can only play a few times, it might make more sense to go for a smaller but safer payoff. This is the reason why many legal cases are settled in court
+
+## 4. Utility Theory
+
+- If we can afford to play long enough and can shoulder the risk, maximizing the average return is the perfect thing to do
+- In many situations people prefer to keep risk at a low amount instead of maximizing the average return
+- Some economists argue that this is one of the reasons why the rich become richer. They can afford to invest in high-risk high-return ventures that the middle class would avoid
+- People even play games with a negative average return by signing up for insurances
+- A *utility* function maps potential rewards to numerical payoffs
+- As a consequence it can also be used to assign value to distributions over rewards
+- Utility functions should follow certain conditions, e.g. they should be consistent and transitive
+- Experimentally it has been shown that people don't always follow utility functions with these conditions
+- However, things are not as bad if we control for external factors, e.g. people act in a less risky way when alone
+- People generally decrease the risk they want to take after they already won something. People also act differently depending on how a question is framed
