@@ -20,3 +20,18 @@
 - Payoffs of non-equilibrium points have no effect on the outcome of the game
 - A strategy is dominating another if its payoffs are always at least as good and at least once better
 - In zero-sum games, you can assume that you or your opponent never use a dominated strategy. This can help to figure out an equilibrium
+
+## 3. The General, Two-Person, Zero-Sum Game
+
+- Not all games have equilibrium points as discussed in the previous chapter
+- In those cases, your opponent could try to second guess your strategy. If you use a pure strategy, they could ensure that you always lose. For example, when the game is trying to predict what side of a coin the opponent chooses, they could always choose the one we would not have guessed
+- The solution to this dilemma are mixed strategies, i.e. making choices with different probabilities. In the case of the coin game, we would choose each side with equal probability. Now, it again does not matter whether our opponent tries to guess our choice
+- If our opponent does not know about this, we could try to play a different strategies, but this fails as soon as we play against a more knowledgable opponent
+- > The more capable your opponent, the more attractive the randomization process becomes
+- One of the fundamental theorems of game theory is Von Neumann's minimax theorem: We can assign a value to every finite, two-person, zero-sum game that tells us how much player I can expect to win on average
+- There is a mixed strategy that protects this return for player I and a mixed strategy for player II that stops them from losing any more. Since the game is zero-sum, both players use those strategies if they act rationally
+- > The virtue of the minimax strategy is security
+- All of this works because we assume we are playing against a perfect opponent
+- To find such a mixed strategy we need to solve an equation system with some constraints. The equation system is based on the fact that the payoff should stay the same regardless of what the opponent does
+- In experimental studies few people actually use equilibrium strategies against experienced opponents. However, when the opponent plays randomly, they do choose the strategy with the highest average return
+- Sometimes the assumption that we want to maximize the average return is flawed since it assumes we are playing for a long time. If we can only play a few times, it might make more sense to go for a smaller but safer payoff. This is the reason why many legal cases are settled in court
