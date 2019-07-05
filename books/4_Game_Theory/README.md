@@ -48,3 +48,23 @@
 - Experimentally it has been shown that people don't always follow utility functions with these conditions
 - However, things are not as bad if we control for external factors, e.g. people act in a less risky way when alone
 - People generally decrease the risk they want to take after they already won something. People also act differently depending on how a question is framed
+
+## 5. The Two-Person, Non-Zero-Sum Game
+
+- Zero-sum games are easier to analyze, but are also rather uncommon
+- We can think of games as falling somewhere on a scale between competitive and cooperative. Zero-sum games are completely competitive. Completely cooperative games are not that interesting since players just need to communicate well
+- In all other games, players will do worse if they both are purely trying to optimize their own gain
+- In non-zero-sum games the payoff matrix does not tell the entire story. It makes a difference whether players can communicate, only communicate in the beginning, split payoffs, and whether agreements are binding
+- The more coorperation a game requires, the more communication helps
+- Players can indirectly communicate by choosing certain strategies if a game is played multiple times. This way they can show the other player that they want to choose a cooperative strategy
+- Actually the perfect response to this is to ignore the other player and cash out for a while, just until before the other player is about to give up. Eventually both players need to coorperate, but before that, one of the players can get additional payoffs
+- The player that makes the first move can have an advantage because they can force the other player into a bad situation
+- Keeping information secret and giving away certain information can both be advantages
+- Threats can be modelled using game theory
+- Players are much more likely to coorperate in the prisoner's dilemma if the game is repeated indefinitely
+- Two players bargaining are in an awkward position, they must coorperate but not too much. The player that takes the first step to an agreement usually has a disadvantage. Rich players have a huge advantage in this game since they generally care less whether an agreement is made at all, thus they can get a better deal
+- In experiments, players rarely cooperate even though it would be to their advantage to do so a little bit. The reason might be that they are viewing the game as a competition
+- Evolution and how mutations spread can be modelled using game theory
+- An evolutionary stable strategy is a mutation that is never completely erased from a population
+- An interesting variation to an auction is making the second highest bidder pay as well. While this is not realistic for actual auctions, it can be used to model a lot of other situations (e.g. time investment)
+- Some character traits correlate with how much players are willing to cooperate
