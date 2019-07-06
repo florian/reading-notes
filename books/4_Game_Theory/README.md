@@ -68,3 +68,28 @@
 - An evolutionary stable strategy is a mutation that is never completely erased from a population
 - An interesting variation to an auction is making the second highest bidder pay as well. While this is not realistic for actual auctions, it can be used to model a lot of other situations (e.g. time investment)
 - Some character traits correlate with how much players are willing to cooperate
+
+## 6. The n-Person Game
+
+- Elections can be modelled as n-person games
+- The power of a player shows how much their strategy (vote) can influence a game
+- We would like to design elections in a way that each person's vote has the same power. This is difficult, e.g. in small states. While people in large states have less power inside the state, the combined power of the state often more than makes up for that
+- Coalitions can be formed in n-player games. Players expect a certain payoff for entering a coalition
+- Aumann-Maschler theory can be used to compute the payoff for each player if they decide to enter a coalition. It however does not say who will enter a coalition. Sometimes there's no certain choice and often it also depends on psychology
+- If you're on the extreme side of a political spectrum, it can make sense to not vote at all to show that your favored party should move in that direction
+- *Superadditivity*: Given two disjoint coalitions, their union will at least have the value that the individual ones have
+- Game theory cannot model all variables, e.g. bargaining skills or norms of society
+- Neumann-Morgenstein (N-M) theory aims to find solutions for n-player games
+- N-M first eliminates all solutions that are not Pareto-optimal, i.e. no solutions are kept where all players can simultaneously do better with a different solution
+- Solutions in n-player games: sets of coalitions that do not dominate each other
+- Effective set of a coalition is a set of players that have enough power to convince the group to distribute payoffs differently
+- Not all n-player games have solutions
+- N-M assumes there's perfect communication between players
+- Aumann-Maschler (A-M) is a second theory that approaches the problem in a different way
+- Given a possible coalition, a player could *object* by proposing a coalition in that all players except another player do better. The other player then has to come up with a *counterobjection* to avoid being left out
+- N-M and A-M have a different concept of solutions and make different assumptions
+- The *Shapley value* tries to describe the value of the game for each player. It is derived by iteratively forming larger coalitions, looking at the possible ways this can be done, and what payoffs this will yield
+- Power in a vote: the portion of time the vote of the respective player makes the difference, i.e. a power of 0 means the player has nothing to say, 1 means they decide everything. The power is computed by looking at all permutations of vote order and checking whose vote brings the number of votes above 50%
+- This power index has been used to sue against power distributions in certain states since it can be used to show that some cities have nearly no influence
+- Logrolling, agreeing to vote for something in return for help at another vote, can actually hurt everybody involved
+- Arrow's theorem: There is no decision rule that always perfectly translates the desires of society into votes
