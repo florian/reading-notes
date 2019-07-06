@@ -24,6 +24,10 @@ It is meant to be read by people that are already very familiar with programming
 The book is great for quickly getting up to speed with C++.
 There are updated editions for the newest C++ versions and the book contains some interesting insights from Stroustrup.
 
+### Game Theory: A Nontechnical Introduction ([book](https://www.amazon.com/Game-Theory-Nontechnical-Introduction-Mathematics/dp/0486296725) | [notes](books/4_Game_Theory/README.md))
+
+Game theory is the science of decision making. It can be used to mathematically formalize how strategies should be chosen, how voting power can be measured, or how players might cooperate. I was looking for a short introduction to the subject. In particular I wanted a book which would be faster to read than a textbook but still had mathematical rigor. After looking for such a book for quite a long time, I settled on Game Theory: A Nontechnical Introduction. It did not contain that much math but still seemed like the closest thing to what I was looking for.
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
