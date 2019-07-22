@@ -9,6 +9,8 @@
 * Academics created several versions of the random-walk theory and a theory called the *new investment technology*, which defines a concept called *betas*
 * Investing is necessary to not lose money as long as there is inflation
 * An average inflation rate of 4% increases prices over 50 years by 7x
+* Investing: Purchasing assets to gain reasonably predictable income
+* Speculating: Buys assets and hopes for short-term gain, closer to gambling
 
 #### The Firm-Foundation Theory
 
