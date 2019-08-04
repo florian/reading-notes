@@ -1,4 +1,4 @@
-#### 11. Smart Betas
+### 11. Smart Betas
 
 * Smart beta strategies invest broadly into the market (like index funds) but slightly tilt towards a particular metric
 * Different flavors
