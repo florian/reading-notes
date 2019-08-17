@@ -6,7 +6,7 @@
     * Smaller firms: Historically they yielded higher returns (smallest 10% perform best, highest 10% worst) but there's also more risk. The existing data has survivorship bias
     * Investing based on momentum: Stock that does badly in the last 3 years often does well the next 2, and the other way around. However, over a very long term this evens out
     * Low volatility: By using the fact that beta has historically not correlated with higher returns, one can borrow money to increase beta and returns. However, buying low beta companies adds as significant bias towards certain companies
-* If smart beta strategies beat the market average it means someone also has to lose out. By definition this cannot be the people the invest in the entire market, so it has to be someone that uses a managed strategy
+* If smart beta strategies beat the market average it means someone also has to lose out. By definition this cannot be the people that invest in the entire market, so it has to be someone that uses a managed strategy
 * In different periods of time different flavors worked best. Over a very long time, it does not look like any consistently outperforms the market. P/E smart betas tend to do best though
 * Sometimes returns of smart beta funds are higher because they assumed more risk
 * Other smart beta strategies underperform: low beta, momentum
