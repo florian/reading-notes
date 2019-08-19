@@ -28,6 +28,10 @@ There are updated editions for the newest C++ versions and the book contains som
 
 Game theory is the science of decision making. It can be used to mathematically formalize how strategies should be chosen, how voting power can be measured, or how players might cooperate. I was looking for a short introduction to the subject. In particular I wanted a book which would be faster to read than a textbook but still had mathematical rigor. After looking for such a book for quite a long time, I settled on Game Theory: A Nontechnical Introduction. It did not contain that much math but still seemed like the closest thing to what I was looking for.
 
+### A Random Walk Down Wall Street ([book](https://www.amazon.com/Random-Walk-Down-Wall-Street-ebook/dp/B00QH9NTSI) | [notes](books/5_%20A_Random_Walk_Down_Wall_Street))
+
+This investment book is split into four parts. The first part describes how people historically lost money in bubbles. The second and third give an overview of how academics and Wall Street, respectively, go about investing. In the last part, the author gives his personal recommendations for how to invest. The first edition of this book, published in 1973, was influental in recommending that something like index funds ought to be created, and popularized the approach of broadly investing into the market.
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
