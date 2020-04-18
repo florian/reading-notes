@@ -3,6 +3,7 @@
 * Most startups will want to create C companies since this is more optimal from a tax perspective when it comes to building up equity
 * While other forms of entities might make more sense in the very beginning, converting the company to a different legal entity is too much of a hassle for this to be worth it
 * Founders should also vest their equity, to avoid one founder leaving early having as much equity as all other founders
+* (*Note: "[Vesting is a hack](https://www.danshapiro.com/blog/2012/04/vesting-is-a-hack/)" is an interesting read*)
 * Board seats should be strategically chosen. It might make sense to add a clause that founders need to keep working at the company while having a board seat (avoid "ruling from the grave")
 * It generally makes sense to add restrictions for when founders / employees are allowed to sell equity
     * Imagine the company is trying to raise new money, while a co-founder, who has already left the company, is trying to sell their equity. Now you are essentially competing with them for buyers
