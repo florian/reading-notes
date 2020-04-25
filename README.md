@@ -32,6 +32,12 @@ Game theory is the science of decision making. It can be used to mathematically 
 
 This investment book is split into four parts. The first part describes how people historically lost money in bubbles. The second and third give an overview of how academics and Wall Street, respectively, go about investing. In the last part, the author gives his personal recommendations for how to invest. The first edition of this book, published in 1973, was influental in recommending that something like index funds ought to be created, and popularized the approach of broadly investing into the market.
 
+### Secrets of Sand Hill Road: Venture Capital and How to Get It ([book](https://www.amazon.com/Secrets-Sand-Hill-Road-Venture/dp/059308358X) | [notes](books/6_Secrets_of_Sand_Hill_Road))
+
+Named after the road that most Silicon-Valley-based Venture Capital (VC) firms are located on, this book gives a thorough overview of how VC works.
+It explains what kind of companies VC funds, what the life cycle of a VC-funded company is like, and how VC funds are managed.
+I especially liked that the book talks a lot about incentives various players have and about how how decisions affect share dilution.
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
