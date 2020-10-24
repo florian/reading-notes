@@ -38,6 +38,11 @@ Named after the road that most Silicon-Valley-based Venture Capital (VC) firms a
 It explains what kind of companies VC funds, what the life cycle of a VC-funded company is like, and how VC funds are managed.
 I especially liked that the book talks a lot about incentives various players have and about how how decisions affect share dilution.
 
+### Never Split the Difference: Negotiating as If Your Life Depended on It ([book](https://www.amazon.com/Never-Split-Difference-audio-cd/dp/1504735056) | [notes](books/7_Never_Split_the_Difference))
+
+Written by the FBI's former head of hostage negotiation, this book describes the art of negotiation.
+It outlines fundamentals to pay attention to during negotiations and a lot of stories to emphasize these points.
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
