@@ -1,4 +1,4 @@
-## 7. Measuring Engineering Productivity
+### 7. Measuring Engineering Productivity
 
 * Measuring productivity is expensive, so first of all it needs to be made sure that it is worth the effort for the specific project: Would the stakeholders do anything differently based on the measurement results? Would the analysis mechanism be convincing to the decision makers?
 * Lines of written code is obviously a bad productivity metric. It should rather be seen as "lines of code *spent*"
