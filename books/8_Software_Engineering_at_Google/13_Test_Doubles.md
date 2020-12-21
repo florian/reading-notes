@@ -11,7 +11,7 @@
 - Types of doubles
 	- *Fake*: lightweight implementation of the API but would not be suitable for production, e.g. in an in-memory database
 	- *Stub*: Double that you tell exactly what to return for which inputs. This is typically done through mocking frameworks
-	- Interaction testing: There's no implementation, you just check that it is called correctly, e.g. the right number of times or with the expected arguments.  This is sometimes called *mocks*, which is confusing because using doubles in general is often called *mocking*. It should also be avoided because it leads to brittle tests (since it might be testing implementation details)
+	- Interaction testing: There's no implementation, you just check that the object is called correctly, e.g. the right number of times or with the expected arguments. This is sometimes called a *mock*, which is confusing because using doubles in general is often called *mocking*. It should also be avoided because it leads to brittle tests (since it might be testing implementation details)
 - Be careful with using doubles
 	- Your first choice should be to use the real implementation as this is clearer and will give you more certainty that the system works as expected for users. Only use doubles if there are good reasons
 	- Google developed a `@DoNotMock` annotation that lets API owners declare that a better alternative exists
@@ -35,6 +35,6 @@
 	- > Some people at Google jokingly refer to tests that overuse interaction testing as *change-detector tests* because they fail in response to any change to the production code, even if the behavior of the system under test remains unchanged
 	- Reasons to use interaction testing
 		1. Other ways to test are infeasible
-		2. How the method is being called is actually part of the contract, i.e. you want a callback to be called in a specific way or you do not want multiple calls because of caching
+		2. How the method is being called is actually part of the contract, e.g. you want a callback to be called in a specific way or you do not want multiple calls because of caching
 	- > If you are not able to perform state testing in a unit test, strongly consider supplementing your test suite with larger-scoped tests that do perform state testing
 	- You only need interaction testing for functions with side effects. If the function has no side effects, you will be able to test by asserting something about the return value
