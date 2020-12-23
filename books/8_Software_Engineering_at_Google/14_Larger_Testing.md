@@ -1,5 +1,7 @@
 ### 14. Larger Testing
 
+(*Note: This felt like the most abstract chapter of the book. Maybe that's because I don't have direct experience with many of the tests here. Maybe it's also because the chapter bundles a lot of losely related things together.*)
+
 - *SUT*: *System under test*
 - *Fidelity*: How reflective the test is of real behavior
 - Common gaps of unit tests
