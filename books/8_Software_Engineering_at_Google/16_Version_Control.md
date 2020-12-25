@@ -20,7 +20,7 @@
 	- A better way to do things is continuous deployment though
 - Version control at Google
 	- Nearly all code is stored in a monorepo
-	- (*Note: I summarized the paper about that [here](papers/003_Why_Google_Stores_Billions_of_Lines_of_Code_in_a_Single_Repository.md)*)
+	- (*Note: I summarized the paper about that [here](/papers/003_Why_Google_Stores_Billions_of_Lines_of_Code_in_a_Single_Repository.md)*)
 	- Google implemented its own version control system inspired by Perforce. This allows it to scale to Google-scale and also allows Google to really customize its behavior (e.g. OWNER files)
 	- Only one version per third party library is allowed into the monorepo. It is then updated for everyone at the same time, which makes dependency management very easy
 	- > Continuing the parallel between filesystem format and VCS, it’s easy to imagine deciding between using 10 drives to provide one very large logical filesystem or 10 smaller filesystems accessed separately. In a filesystem world, there are pros and cons to both
