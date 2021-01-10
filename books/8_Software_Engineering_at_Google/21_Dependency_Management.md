@@ -22,7 +22,7 @@
 	3. Bundle what you need
 		- An organization finds a set of compatible dependencies and publishes a bundled version of those
 		- This is essentially what Linux distributions are
-		- > Distributors are the engineers respon‐ sible for proposing a set of versions to bundle together, testing those to find bugs in that dependency tree, and resolving any issues
+		- > Distributors are the engineers responsible for proposing a set of versions to bundle together, testing those to find bugs in that dependency tree, and resolving any issues
 		- For outside users, this simplifies depending on a large network of dependencies to depending on one distribution
 	4. Live at Head
 		- > the dependency-management extension of trunk-based development
