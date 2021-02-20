@@ -1,0 +1,49 @@
+### 25. Compute as a Service
+
+- *Compute as a Service* (*CaaS*) is a system that manages how your software is assigned to hardware and run there. Think of a cluster computing system that manages compute jobs, assigns them to cores and restarts stuff as necessary
+- *Borg* is Google's CaaS. It's the predecessor to systems like Kubernetes
+- The case for CaaS
+	- Without a CaaS you manually need to find machines to run the code, restart stuff if they fail, optimize scheduling, etc
+	- This does not scale as you need more compute
+	- Since several jobs might share the same machines, compute services need to provide isolation of the resources a job might access (think of writing to /tmp or taking a certain port)
+	- VMs work but come with too much overhead as they boot an entire OS
+	- Google came up with *containers* as a solution. Docker is one open source version of the same idea
+	- > “easy things should be easy, and complex things should be possible”
+- Writing software to run via CaaS
+	- CaaS should be able to reschedule your job when it fails. This is sometimes described as the "pet vs cattle" analogy:
+	- > If your server is a pet, when it’s broken, a human comes to look at it (usually in a panic), understand what went wrong, and hopefully nurse it back to health. It’s difficult to replace. If your servers are cattle, you name them replica001 to replica100, and if one fails, automation will remove it and provision a new one in its place. The distinguishing characteristic of “cattle” is that it’s easy to stamp out a new instance of the job in question—it doesn’t require manual setup and can be done fully automatically
+	- (*Note: I'm not sure how to feel about that analogy*)
+	- Replicas might be killed because the machine has to be updated, because something on the machine itself broke, or because the distribution of jobs is updated for better bin-packing in the data center
+	- As a developer you do not really care about that though. The point of CaaS is that it takes care of rescheduling for you
+	- Before killing a job, it receives a notice that it is about to be killed soon. For jobs handling live traffic, this can e.g. mean refusing to take on new requests and just wrapping up the ones it already took
+- Batch vs serving jobs
+	- *Batch*: Processes a bunch of data and finishes when everything is processed (logs or ML training)
+	- *Serving*: Does work on requests and runs indefinitely (web servers)
+	- Batch jobs should be optimized for throughput (i.e. how long does it take until everything is done) while serving jobs should optimize for latency (i.e. how long do individual requests have to wait)
+	- Serving jobs often need more time to start up, since they run much longer
+  - At Google, batch jobs are often effectively free to run because they can be worked on on the side when there's no peak traffic
+- Managing state
+	- In-memory state is lost when replicas are restarted
+	- Jobs should periodically write their results to disk
+	- Adding caches can be a good way to do this, i.e. if results are cached somewhere then restarted replicas can quickly pick up their previous results
+	- You should scale everything so that caches allow for your desired latency and the system behind the cache could take the entire load if the cache fails. This avoids downtime in such situations
+- Idempotency
+	- is important: If a system receives the same request twice, it should return the same response
+	- Think of a batch job where requests are sent and might be sent twice if something restarts
+- Connecting to services
+	- If you have to hard-code an IP, it's not cattle
+	- Services should instead be accessible by some assigned name which maps to the IP of the replica currently serving it
+- > it’s unlikely that a thousand core hours costs anything close to a day of engineering work
+- Low-priority batch work is pretty much free because it can be done in idle time of more important jobs
+- There's a high lock-in factor to choosing a compute service since a lot of components would need to be updated if you want to change it
+- Serverless
+	- You have jobs that are handling all the web requests and then dispatch them to custom code
+	- This custom code cannot maintain state
+	- The custom code also does not know about any servers. It just maps from input to output and is completely agnostic about where it runs on
+	- This makes serverless architectures incredibly easy to scale because you just have to spin up more or fewer traffic-handling jobs depending on the traffic
+	- If you do not have a serverless architecture, then you might have to pay for lots of jobs running just to maintain state, even though they are not currently needed
+	- Google does not use serverless because it gets so much traffic that there is no advantage of being able to scale to nearly 0 traffic
+- Should you use a public cloud or run your own one?
+	- Public might be cheaper, allow you to focus on your actual expertise, and allows for more flexible scaling
+	- There's a lock-in cost. To reduce it, it might make sense to run some cloud-agnostic open source system between your application and the cloud. That way you can migrate more easily
+- (*Note: I think the pet-vs-cattle analogy is really the main takeaway from this chapter. You should be able to easily run your software on different hardware if you want to be able to scale well automatically*)
