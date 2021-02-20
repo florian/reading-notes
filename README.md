@@ -43,6 +43,11 @@ I especially liked that the book talks a lot about incentives various players ha
 Written by the FBI's former head of hostage negotiation, this book describes the art of negotiation.
 It outlines fundamentals to pay attention to during negotiations and a lot of stories to emphasize these points.
 
+### Software Engineering at Google: Lessons Learned from Programming Over Time ([book](https://www.amazon.com/Software-Engineering-Google-Lessons-Programming/dp/1492082791) | [notes](books/8_Software_Engineering_at_Google))
+
+This book gives a broad overview of software engineering techniques used by Google.
+There's lots of incredible advice and I genuinely think that reading this taught me more than my software engineering class in university did.
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
