@@ -6,7 +6,7 @@
 1. Simons was brilliant: He had his bachelor from MIT at 20, PhD from Berkeley at 23, was an accomplished code cracker at the NSA at 26, led an entire math department as a professor at 30, turned that department into a really good one, and made significant contributions to geometry. Even without his RenTec achievements, he had an amazing career
 2. Simons dabbled in finance with very little success before going all in: Pretty much between every life stage outlined above, Simons tried his luck with investing, and rarely did he achieve much. RenTec wasn't any sort of instant or overnight success
 3. Everything in Simons' life prepared him for RenTec: He learned to solve hard problems in his math education, learned to use algorithms to find patterns in data as a code cracker, and he learned to recruit the academic elite as department chair
-4. Simons was really lucky: Without too much of his own doing's he had millions at 40. He could quit academia without worrying about money at all and it would've been no problem for him financially had RenTec failed. Similarly, he entered the hedge fund field at pretty much the perfect time: it wasn't computerized yet but there was data to find patterns in
+4. Simons was really lucky: Without too much of his own doing he had millions at 40. He could quit academia without worrying about money at all and it would've been no problem for him financially had RenTec failed. Similarly, he entered the hedge fund field at pretty much the perfect time: it wasn't computerized yet but there was data to find patterns in
 
 ## Other thoughts
 
