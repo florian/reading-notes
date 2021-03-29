@@ -13,6 +13,7 @@
 - Pretty much every single person in the book sounds both absolutely brilliant and absolutely miserable. I'm genuinely not sure if anyone's life really got improved by their job at RenTec and by making that much more money
 - There's a certain beauty about things like hidden markov model's being applicable to so many - seemingly unrelated - things: speech recognition, stock markets, etc
 - The thought that successful scientists can switch fields and attack the field's open problems from a completely new angle seems kind of cool
+- RenTec absolutely raided IBM's speech recognition group
 - Machine learning researchers, computer scientists, physicists, mathematicians are the usual suspects for these kinds of model fitting jobs. However, astronomers apparently also fit it really well because they are used to looking through huge amounts of data to find a small signal
 - RenTec had (and probably has) some trading strategies that only make money in 50.5% of transactions. If you do a lot of such transactions these are still really profitable. Most hedge funds at the time thought such strategies were not worth trading, leaving room that RenTec filled
 - RenTec was brilliant at minimizing transaction costs, which is one of the reasons why it could execute 50.5% strategies
