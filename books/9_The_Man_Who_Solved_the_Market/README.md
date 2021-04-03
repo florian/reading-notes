@@ -8,7 +8,7 @@
 3. Everything in Simons' life prepared him for RenTec: He learned to solve hard problems in his math education, learned to use algorithms to find patterns in data as a code cracker, and he learned to recruit the academic elite as department chair
 4. Simons was really lucky: Without too much of his own doing he had millions at 40. He could quit academia without worrying about money at all and it would've been no problem for him financially had RenTec failed. Similarly, he entered the hedge fund field at pretty much the perfect time: it wasn't computerized yet but there was data to find patterns in
 
-## Other thoughts
+## Other thoughts & interesting takeaways
 
 - Pretty much every single person in the book sounds both absolutely brilliant and absolutely miserable. I'm genuinely not sure if anyone's life really got improved by their job at RenTec and by making that much more money
 - There's a certain beauty about things like hidden markov model's being applicable to so many - seemingly unrelated - things: speech recognition, stock markets, etc
@@ -18,3 +18,4 @@
 - RenTec had (and probably has) some trading strategies that only make money in 50.5% of transactions. If you do a lot of such transactions these are still really profitable. Most hedge funds at the time thought such strategies were not worth trading, leaving room that RenTec filled
 - RenTec was brilliant at minimizing transaction costs, which is one of the reasons why it could execute 50.5% strategies
 - For years, RenTec only traded with commodities & similar stuff, but not with stocks. While stocks did require more complicated modeling, they also just had bugs in their code which prevented their strategies from working. It seems to me like RenTec could've saved a few years of headaches about stock trading had they paid more attention to proper software engineering earlier on
+- RenTec collected historical data of stock movements way before anyone else did. In fact, they did this because a single employee found it interesting,  even though they were not yet able to use that data. Later on it proved to be incredibly valuable
