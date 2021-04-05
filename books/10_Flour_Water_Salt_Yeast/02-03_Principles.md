@@ -1,0 +1,71 @@
+## Part 1: Principles of Artisan Bread
+
+### Chapter 2: Eight Details for Great Bread and Pizza
+
+- Temperature
+	- The fully mixed dough should have a temperature between 24C and 27C. The author prefers 26C
+	- The main variables influencing this are room and water temperature
+	- Adjust your water temperature to achieve the above mixed temperature. Usually you want something between 30C and 35C
+- *Levain*: Sourdough, which is natural yeast. It's how people made bread during the first 5,000 years. Commercial yeast is a very new thing
+- *Pre-ferment*: Portion of the dough that is mixed 6-12hrs before the final dough. This adds flavor and leavening
+	- *Poolish* (French/Polish): Pre-ferment with equal amounts of water and flour, tiny amount of yeast. Usually you use 30-50% of the flour of the recipe
+	- *Biga* (Italian): Pre-ferment with 60-70% water to flour, some yeast
+	- Pre-ferments need at least 4hrs to develop. At their best they are bubbly and smell of yeast/alcohol. An overdeveloped one will be visibly collapsed
+- *Autolyse* method
+	- Mix flour and liquid and let them rest for 20-30 minutes before adding salt, yeast, levain or pre-ferments
+	- This allows the flour to completely absorb the water, which makes the final dough more extensible and helps flavor
+	- It was introduced to French baking when people started over-mixing dough because of stand mixers
+	- The author uses it for all bread made in his bakery
+	- When using instant yeast, it *can* be added to the autolyse. The autolyse should rest at most 20 minutes then
+- The *strength* of a dough refers to how well it can keep its shape (especially vertically)
+- You can *fold* dough to increase its strength: Repeatedly pull part of the dough over the rest. This works because it stops gasses from escaping from the dough. It is especially helpful for wet doughs
+- Dense bread is usually created using stiffer dough (i.e. it has less water)
+- *Bulk fermentation*: First rise. It begins after mixing and ends when the dough is cut up and shaped
+- Hydration
+	- Whole-wheat flour absorbs more water than white flour
+	- White flour: 75-80%
+	- Whole-wheat flour: 82+%
+	- Hydration has to be different in Europe and North America because of the flour. Usually you need 5% less water in Europe
+	- Wet dough expands more. It triples rather than doubles in size
+- Handle dough carefully
+	- Use a knife to cut dough. Tearing it breaks up too much gluten structure
+	- Also do not unnecessarily tear the dough otherwise
+	- Generally you want to keep as much gas as possible in the dough
+- *Proofing*: Final rise
+  - For complex flavors, either bulk fermentation or proofing has to be increased by having the dough in a cooled down place (e.g refrigerator)
+  - *Finger-dent test*: Poke the dough with a finger. If the indentation slowly springs back, you're good. If the dough collapses, then you overproofed
+  - The time window between under- and overproofing is much shorter for commercial yeast. Sometimes it's as short as 15mins
+  - Find the perfect time for proofing by pushing the limits and then going back slightly in time
+- Questions to ask yourself when improving your bread
+	- What temperature was the dough at the end of the mix?
+	- How long did it take for the dough to expand to the size indicated in the recipe?
+	- Was the dough folded correctly?
+	- What was the room temperature?
+	- Was the pre-ferment just right?
+	- Did dough strength and hydration feel right?
+	- Was the oven temperature correct?
+	- Was there the right amount of steam in the oven?
+	- Was it the same kind of flour you usually use?
+- Think of time and temperature as ingredients with a reciprocal relationship
+- *Baker's percentage*: Amount of ingredient compared to the amount of flour
+- Standard French bread recipe
+	- 68% water
+	- 2% salt
+	- 2% fresh yeast
+	- Autolyse for 20mins
+	- Bulk fermentation for 1 1/2hrs
+	- Proofed for 1hr
+	- Any of these is slightly varied for different kinds of French bread
+- Most differences in bread are not due to ingredients but due to technique
+- Questions to ask yourself when reading a new recipe
+	- How is this different to recipes I know?
+	- What type of leavening, mix of flour, hydration percentage, temperature?
+	- How long for bulk fermentation and proofing?
+
+### Chapter 3: Equipment and Technique
+
+- Doing the bulk fermentation in a transparent container is useful because it allows you to see how the dough is rising
+- Dissolve instant yeast in water if hydration is less than 70%
+- 3g fresh yeast are equivalent to 1g of instant yeast
+- Levain contains all sorts of natural appearing kinds of yeast while store-bought yeast is one specific kind. Levain thus has more complex flavors. Commercial yeast rises more quickly and gives the bread more of a lift
+- You can mix your levain and store-bought yeast
