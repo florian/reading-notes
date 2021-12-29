@@ -48,6 +48,21 @@ It outlines fundamentals to pay attention to during negotiations and a lot of st
 This book gives a broad overview of software engineering techniques used by Google.
 There's lots of incredible advice and I genuinely think that reading this taught me more than my software engineering class in university did.
 
+### The Man Who Solved the Market: How Jim Simons Launched the Quant Revolution ([book](https://www.amazon.com/Man-Who-Solved-Market-Revolution/dp/073521798X) | [notes](books/09_The_Man_Who_Solved_the_Market))
+
+Jim Simons was a math professor who created the world's most successful hedge fund and was the first to apply early forms of machine learning to investing.
+This is his story.
+
+### Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza ([book](https://www.amazon.com/Flour-Water-Salt-Yeast-Fundamentals/dp/160774273X) | [notes](books/10_Flour_Water_Salt_Yeast))
+
+This is a guide on how to bake bread and pizza.
+It starts with the basics and is an ideal book for learning to bake bread.
+
+### Drive: The Surprising Truth About What Motivates Us ([book](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates-ebook/dp/B004P1JDJO) | [notes](books/11_Drive))
+
+There's different kinds of motivation: biological, extrinsic, intrinsic.
+While intrinsic is the strongest one, it can only grow in certain conditions.
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
