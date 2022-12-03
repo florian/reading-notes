@@ -63,6 +63,11 @@ It starts with the basics and is an ideal book for learning to bake bread.
 There's different kinds of motivation: biological, extrinsic, intrinsic.
 While intrinsic is the strongest one, it can only grow in certain conditions.
 
+### Game Programming Patterns ([book](https://gameprogrammingpatterns.com/) | [notes](books/12_Game_Programming_Patterns))
+
+This book discusses 19 design patterns that are particularly useful or game development.
+It is much more fun to read than design pattern books I have seen previously, and the patterns are applicable to much more than just games.
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
