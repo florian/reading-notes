@@ -68,6 +68,11 @@ While intrinsic is the strongest one, it can only grow in certain conditions.
 This book discusses 19 design patterns that are particularly useful or game development.
 It is much more fun to read than design pattern books I have seen previously, and the patterns are applicable to much more than just games.
 
+### Who Am I?: And If So, How Many? ([book](https://www.amazon.com/Who-Am-If-How-Many/dp/0385531184) | [notes](books/13_Who_Am_I_And_If_So_How_Many) | [review](https://florian.github.io/reading-2021/#who-am-i-and-if-so-how-many))
+
+*Who Am I? And If So, How Many?* is an introduction to philosophy’s biggest topics. Each chapter of the book discusses a different question, ranging from the meaning of life to ethical questions.
+The author does not only discuss the philosophical questions very well but also narrates the historical aspects of how they came to be.
+
 ## Papers
 
 1. [The Unreasonable Effectiveness of Data](papers/001_The_Unreasonable_Effectiveness_of_Data.md)
