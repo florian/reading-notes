@@ -1,0 +1,28 @@
+## 2. The Production Environment
+
+- *Machine*: A piece of hardware
+- *Server*: A software implementing some service
+- A server can run on any machine
+- Google data center topology, in increasing size: machine, rack, row, cluster, data center, campus
+- Scheduling: Borg
+    - *Borg* is Google's cluster operating system
+    - It schedules *jobs* to run on the cluster. Each job can consist of *tasks*, which can have different hardware requirements
+    - Since Borg might schedule the job on any machine, one cannot depend on IP addresses anymore. Instead, *BNS* (*Borg naming service*) addresses are used, which just refer to the cluster and job by name
+- Storage
+    - There are several options for permanent storage
+    - In increasing order of abstraction level
+        - *D*: A file server running on each cluster
+        - *Colossus*: Offers filesystem abstractions on top, so that you can address files by name instead of location. It also offers replication and encryption on top
+        - *Bigtable* (No-SQL), *Spanner* (SQL) and *Blobstore* interfaces make it easier to interact with large amounts of data
+- Networking
+    - Google has various networking and load balancing systems
+- Lock system
+    - *Chubby* provides a filesystem-like API for locks
+    - It uses the Paxos protocol
+    - Chubby is for example used when multiple replicas compete to perform a specific action
+- Alterting
+    - *Borgmon* scrapes logging data from various servers
+    - It allows visualizing this data or setting up alerts based on it
+- Software
+    - RPC calls: *Stubby*
+    - Data transferred is stored in protocol buffers
