@@ -1,0 +1,29 @@
+## ## 17. Testing for Reliability
+
+- > If you haven't tried it, assume it's broken
+- > Passing a test or a series of tests doesn’t necessarily prove reliability. However, tests that are failing generally prove the absence of reliability
+- *Mean Time to Repair* (*MTTR*) measures how long it takes to fix a problem affecting production
+- One can achieve an MTTR of 0 if comprehensive tests stop the production push of a bug
+- *Mean Time Between Failures* (*MTBF*) is a similar metric
+- One can distinguish between several classes of tests
+    - Traditional: The software is evaluated for correctness offline
+        - Unit tests
+        - Integration tests
+        - System tests
+            - Smoke tests
+            - Performance tests
+            - Regression tests
+    - Production tests: The system is evaluated in production. Sometimes this is also called *black-box testing*
+        - Rollouts entangle tests: Test the system against various production rollout environments
+        - Configuration tests: Compare production config files against the ones found in version control to ensure that they are the same
+        - Stress test: Tests to find scaling limits
+        - Canary test: Roll out changes to a subset of servers first and only continue the rollout if all metrics look good. This is less of a test and more of a structured rollout
+        - > The term canary comes from the phrase "canary in a coal mine," and refers to the practice of using a live bird to detect toxic gases before humans were poisoned
+- > One way to establish a strong testing culture is to start documenting all reported bugs as test cases
+- Fuzzy testing can be useful for testing SRE tools, which are generally hard to test because they might be executed in different orders and can have side effects
+- It is easy to introduce production problems by misconfigured configuration files. One lesson learned is that the config language should be chosen wisely. One that offers schemas and static checks is generally preferable
+- Production probes
+    - Test requests that are used in integration tests can also be replayed in production
+    - This is useful to see whether everything works as expected when really integrated into the production environment
+    - When the prober sees failures, it can automatically roll back to a good version
+- Testing is a continuous effort
