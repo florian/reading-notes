@@ -1,4 +1,4 @@
-## ## 17. Testing for Reliability
+## 17. Testing for Reliability
 
 - > If you haven't tried it, assume it's broken
 - > Passing a test or a series of tests doesn’t necessarily prove reliability. However, tests that are failing generally prove the absence of reliability
