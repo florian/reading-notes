@@ -1,0 +1,36 @@
+## 23. Managing Critical State: Distributed Consensus for Reliability
+
+- The task of distributed consensus is to have workers agree on an outcome even in an unreliable network
+- This can for example be used to decide on a leader or to retrieve a database value
+- CAP theorem
+    - C: Consistency, A: availability, P: partitioned network tolerance
+    - If a network is partitioned (i.e nodes can not reach all other ones indirectly) then you either have to sacrifice consistency or availability
+    - This is often framed as “you can have two out of three” but that’s a rather confusing way of saying it since the law is really about what happens in partitioned networks
+- Solving the distributed consensus problem naively (e.g. using timeouts or human intervention) generally works badly because there are a lot of special cases and pitfalls
+- Many problems in distributed systems can be reduced to the distributed consensus problem, e.g. how to perform locking or how to elect a leader
+- Variants of the distributed consensus problem
+    - *asynchronous* (there can be any delay until messages are are received) vs *synchronous*
+    - *crash-fail* (crashed nodes never recover) vs *crash-recover* (they do recover)
+    - *Byzantine failures* (processes can pass incorrect messages because of bugs or malicious activity) vs no such failures are possible
+- It is not possible to solve the asynchronous distributed consensus problem in bounded time
+- Usually, we consider systems that have a sufficient number of healthy replicas and allow for reliable network connectivity most of the time
+- The *Paxos* protocol
+    - By Leslie Lamport
+    - Was the first solution to the distributed consensus problem
+    - Workers each generate a unique number (e.g. by incorporating their IP address)
+    - Workers can propose their number as the winning number
+    - If a worker receives a proposal for a number higher than theirs, they send back a promise to follow that worker, and reject all other proposals
+    - Workers recursively follow each other. Meaning if worker A promised to follow worker B, and then worker B promises to follow C, we also count A as a follower of C
+    - The first worker to have promises from the majority of workers wins
+    - Because workers can only promise to follow one other worker, this even works in asynchronous cases
+- A *replicated state machine* is a state machine whose operations were distributed based on a consensus mechanism
+- A *reliable replicated state machine* is such a distribution that scales better while giving certain guarantees for some operations like read or write
+- Barriers
+    - > A *barrier* in a distributed computation is a primitive that blocks a group of processes from proceeding until some condition is met
+    - This can for example be used after the Map part of MapReduce
+- There are Paxos variants that optimise for different goals, e.g. minimising the number of required messages, optimising for reads, optimising for a wide network
+- Adding more replicas to a system is a trade-off between cost, complexity, risk and performance
+- The location of replicas matters a lot. But most of all, the location of the leader matters, as that node has to communicate a lot more than others have to
+- *Failure domain*: Set of components that become unavailable because of a failure, e.g. a machine or an entire data center. How larger the failure domain may be depends a lot on the specific project
+- It is important to monitor various metrics related to leader election to ensure it happens efficiently
+- (*Note: I have a lot of thoughts on this chapter. It was the most algorithmic one so far, which was nice. However, it was also fairly hard to follow some of the explanations without already being quite familiar with the material. It is a really interesting topic though, and I regret that I didn't have any distributed systems class in my master's and only a rather basic one during undergrad*)
