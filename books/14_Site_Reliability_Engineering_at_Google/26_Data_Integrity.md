@@ -1,0 +1,23 @@
+## 26. Data Integrity: What You Read Is What You Wrote
+
+- Data integration means data is available and accurate
+- To what level this needs to be the case is highly dependent on the application
+- Backup vs archive
+    - *Backup*: Something that can be loaded back into the application to restore some previous state
+    - *Archive*: Safekeep data to satisfy auditing, discovery and compliance needs
+- Soft / lazy deletion
+    - For some applications, it can be a good idea to let users *soft delete* data, meaning it is marked as deleted but the user can still undo the action
+    - Database elements marked as deleted are ignored by everything else
+    - After a while these elements do fully get deleted
+    - Whether this is a useful feature very much depends on the use case
+- Backups
+    - You should have strategies for regularly taking them and being able to quickly apply them
+    - Make sure to regularly test your backup systems, especially when they have not been needed for a long time
+    - Google has backups stored on tape for especially lasting backups
+- Have systems in place to detect data manipulation early on. The sooner you know about data loss, the better you can deal with it
+- Principles SREs apply to data integrity
+    - Beginner's mind: Try to understand everything
+    - Trust by verify
+    - Hope is not a strategy
+    - Assume every strategy fails eventually
+    - Revisit and reexamine periodically
