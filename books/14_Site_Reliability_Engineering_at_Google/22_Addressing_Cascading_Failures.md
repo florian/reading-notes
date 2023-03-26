@@ -1,0 +1,23 @@
+## 22. Addressing Cascading Failures
+
+- *Cascading failures* are failures that grow over time because of some feedback effect
+- A common cause for this are server overloads. When a server goes down because of overload, its load gets redistributed to the remaining servers, which thus become more likely to become overloaded as well. This can spiral out of control
+- There can be many other ways that cascading failures happen. E.g. there can be a vicious feedback loop where little CPU being available leads to slower requests which lead to more RAM usage, which then triggers garbage collection and leads to even less CPU being available
+- (*Note: This chapter has so many connections to "Thinking in Systems”*)
+- Preventing server overload
+    - Test the entire system for what happens when servers become overloaded
+    - Implement a system that can serve degraded results
+    - Reject requests in an early stage of the system when it becomes overloaded (e.g. at the reverse proxy or load balancer)
+- On serving degraded results
+    - Codepaths that run very rarely are often the most unpredictable
+    - If you only serve degraded results incredibly rarely, it can be risky to do it
+    - Instead, it might be wise to always have some servers simulate being overloaded and thus executing the code path for degraded results
+- Retries should be executed in a randomized, exponential increases. This avoids linearly adding load over time in case requests fail
+- (*Note: Gmail has a method for retrying for a connection that also uses exponential increases. Now I understand that much better. When looking at a single user, it seems slightly more efficient. When thinking about all possible users, this avoids adding linear overload to the system, which is super important*)
+- *Deadline propagation*: If a request has a deadline, the service should pass the remaining time through relevant calls in the system, so that they can each drop things that would surpass the deadline
+- Immediate steps for addressing cascading failures
+    - Increase resources
+    - Restart servers
+    - Stop health checks that make servers restart in a loop
+    - Eliminate bad traffic
+    - As a last resort: Drop traffic in general
