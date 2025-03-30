@@ -20,3 +20,16 @@
 | Bayes‘ theorem  | Updating one‘s prior belief by weighting in new evidence | Professor Quirrel reasons in a way resembling Bayes‘ theorem about why Harry Potter might turn into a dark lord |
 | Preference utilitarianism  | Ethical theory that says you should maximize the complete, summed happiness of people | Harry Potter explains that it might be okay to hurt someone if it’s for a greater good |
 | Plausible deniability | Phrasing things in a way that you can deny possible implications in a plausible way | Professor Quirrel phrases some of his ideas in such a way |
+
+## Volume 2: The Legion of Chaos — Chapters 22-37
+
+| Concept | Explanation | Context |
+| --- | --- | --- |
+| Blind testing  | Test subjects are not told what exactly the test is since that would otherwise influence results  | Harry let’s Hermine try out different intonations for a spell to see if intonation matters. Hermine is not told which intonation is supposed to work  |
+| Socratic method  | Explain things by asking questions, usually between teacher and student  | Harry uses this technique with Malfoy  |
+| Litany of Gendlin | What is true, is so. Not acknowledging it does not make it better | Malfoy is unhappy about acknowledging results of their experiments about blood. Harry tells him not accepting the results will not make them any different  |
+| Machiavellian intelligence hypothesis (also: social brain hypothesis) | Humans evolved to have larger brains because of social competition |  |
+| Zero-sum game | A game in which one player can only win points by another losing the same amount | The battle magic competition at Hogwarts is such a game |
+| Mutual modeling  | By predicting what the other player will do, you can better figure out which actions to take yourself  | Participants in the battle magic competition are scheming and do so at multiple levels of depth |
+| Prisoner‘s dilemma | A game in which collaboration would reach a good outcome for both but both players can reach a better outcome for themselves if they defect. The problem is that you cannot trust the other player to collaborate  | Harry and Malfoy are in a Prisoner‘s Dilemma in the battle magic competition. They should collaborate to not lose but each of them could win the game by eventually defecting  |
+| Newcomb‘s problem | A game in which a predictor tries to guess what action you are about to take. Your payoff depends on what action you kick and on what the predictor guessed. What you should do depends on how well you think the predictor can guess your action  | Harry references this when scheming based on mutual modeling starts  |
