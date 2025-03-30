@@ -1,8 +1,8 @@
 # Harry Potter and the Methods of Rationality ([[book]](https://hpmor.com/))
 
-(*Note: To summarize the book, I'm keeping track of all interesting concepts and the context they were mentioned in. Some concepts I was aware of before reading the book, but it's still a good practice to document them, which also forces me to think through the context they were mentioned in.*)
+(*Note: To summarize the book, I'm keeping track of all interesting concepts and the context they were mentioned in. Some concepts I was aware of before reading the book, but it's still a good practice to document them since that forces me to think through the context they were mentioned in.*)
 
-## Chapters 1 - 20
+## Volume 1: The Methods of Rationality — Chapters 1 - 21
 
 | Concept | Explanation | Context |
 | --- | --- | --- |
