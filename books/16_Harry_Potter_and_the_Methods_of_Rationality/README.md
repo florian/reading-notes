@@ -43,3 +43,24 @@
 | Stanford prison experiment | A famous psychology experiment in which a prison with prisoners and guards which are played by the participants. It turns out that the participants end up doing horrible things and the experiment had to be stopped early. (Though the results have not been consistently replicated) | Harry remarks that the experiment studied the prisoners but that it would potentially have been even more interesting to study the people that voted for a system that allows prisons such as Azkaban |
 | Scarcity effects | A cognitive bias that makes people assign higher values to things that are rare. Some examples from the Influence book include: (1) people only wanted to buy phosphate detergent when it was about to be banned, and suddenly deemed it superior. (2) Kids prefer toys behind a barrier instead of toys that are easily available. (3) Sales people tell customers that something might not be available to make them more interested | Harry has to stay at Hogwarts for security reasons. So far he didn't even think about wanting to be somewhere else, but now that it's not possible anymore, he really wants to |
 | Milgram experiment | A famous psychology experiment on the role of authority. Experiment participants are in charge of administering electrical shocks for a student giving incorrect answers. It turns out that 97% of people administer extreme electrical shocks when told they really need to do so  | Harry remembers that Hermine was the only one to refuse the defense professor's demand to administer a hurtful spell to another student. This happened at the beginning of the series, but it only comes to mind now |
+
+## Volume 4: The Phoenix’s Call — Chapters 65-85
+
+| Concept | Explanation | Context |
+| --- | --- | --- |
+| Double-blind study  | A study in which participants do not know whether they are in the control or treatment group, and neither do the experimenters know until the end | Harry explains that this is typically used to test new medicines |
+| Epistemology  | A field of philosophy that studies the nature of knowledge | Harry explains that lots of common wisdom is wrong and not approached in systematic ways |
+| Forced move | A move that has to be taken, i.e. no other options exist | Draco reasons about what he can do in his current situation with respect to losing against Hermine. He decides there is only one actual option left |
+| Pavlovian association | When we associate a result with a certain stimulus, and implicitly end up assuming a causal relationship between them | A potential criminal in the magical world could always claim to be memory charm, and hence nobody believes this. The Pavlovian association is to doubt memory charm claims of potential criminals |
+| Replacement value | The amount one would have to pay to replace an asset, i.e. a measure of its worth | Harry reasons about whether it makes sense to lose his fortune to say Hermine. Since she cannot be replaced, he decides that does make sense to lose his fortune to save her. Later, he feels bad about trying to address this in such a rational manner |
+
+## Volume 5: The Last Enemy — Chapters 86-99
+
+| Concept | Explanation | Context |
+| --- | --- | --- |
+| Bayesian evidence  | An event that provides evidence of being in a particular universe | Belatrix escaping Azkaban is evidence of Voldemort being alive since in such a universe it’d be more likely for Belatrix to escape Azkaban  |
+| Insufficient Bayesian evidence  | Bayesian evidence that does not meaningfully move the most likely hypothesis | Harry's mark might be a sign of Voldemord still being alive, but all in all it is not significant evidence |
+| Temporal paradox | A term describing paradoxes related to time travel | Harry reasons that he cannot throw his ethics away to fulfill a prophecy about the future because then he would be the reason the prophecy was made |
+| Admissible evidence  | Evidence that is permitted to be shown in a court | Moody and Harry discuss what methods are ethically acceptable to resolve a case |
+| Egocentric bias | We only see our view and forget about the perspective of others | Neville feels responsible for what happened to Hermine. Harry did not consider this at all before and attributes this to his egocentric bias |
+| Law of the excluded middle | In logic, propositions are either true or false. There is no middle ground between them | Harry reasons about the options of how his invisibility cloak ought to work |
