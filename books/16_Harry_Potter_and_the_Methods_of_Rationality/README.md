@@ -64,3 +64,24 @@
 | Admissible evidence  | Evidence that is permitted to be shown in a court | Moody and Harry discuss what methods are ethically acceptable to resolve a case |
 | Egocentric bias | We only see our view and forget about the perspective of others | Neville feels responsible for what happened to Hermine. Harry did not consider this at all before and attributes this to his egocentric bias |
 | Law of the excluded middle | In logic, propositions are either true or false. There is no middle ground between them | Harry reasons about the options of how his invisibility cloak ought to work |
+
+## Volume 6: The Mirror’s Stone  — Chapters 100-122
+
+(I did a bad job at summarizing these. Only 8 months after reading the book did I notice that I never completed the summary for this volume. Hence, the below table is fairly incomplete in terms of contexts and explanations.)
+
+| Concept | Explanation | Context |
+| --- | --- | --- |
+| Argumentative norms | Rules and conventions that state what arguments are considered constructive | Wizards don’t understand centaurs and astrology |
+| Scope insensitivity | Bias in which people do not appropriately consider the size of a problem in regards to the situation | Hagrid is happy about teaching but is actively hurting students in the process  |
+| Hidden entanglement |  |  |
+| Tsiolkovsky rocket equation | Equation that describes the motions of a rocket or vehicle |  |
+| Deontological ethical injunctions  |  |  |
+| Reverse psychology  | You try to convince someone by arguing for the opposite of what you actually want | Dumbledore tells HP about forbidden corridor but actually makes it more interesting that way |
+| Aguendo |  | Voldemort and Harry Potter are theorizing  |
+| Vinge‘s Principle | Knowing what a smart mind would do means one must be at least as smart as that mind | The reader needs to think of a solution to a puzzle  |
+| Episodic memory  | Long-term memory for storing experiences and events |  |
+| Declarative and procedural knowledge  | Declarative is knowing factors whereas procedural is knowing what to do |  |
+| Motivated cognition   | Personal motives and emotions can shape our decisions without us actively realizing it |  |
+| False relationship credit |  |  |
+| Causal model | A model that allows inference beyond just correlation |  |
+| Normative moral reasoning | Systematically trying to distinguish right from wrong |  |
